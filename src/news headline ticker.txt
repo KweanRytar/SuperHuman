@@ -1,0 +1,28 @@
+<template>
+  <div class="overflow-hidden bg-red-600 text-white py-2 px-4 whitespace-nowrap">
+    <div
+      class="inline-block animate-marquee"
+      :style="{ animationDuration: speed + 's' }"
+    >
+      {{ headline }}
+    </div>
+  </div>
+</template>
+
+<script setup>
+import { ref } from 'vue'
+
+const headline = ref("Breaking News: New Coal Power Project Coming to Aguobu Owa Community on April 12, 2025!")
+const speed = 15  // seconds – adjust as needed
+</script>
+
+<style scoped>
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+.animate-marquee {
+  animation: marquee linear infinite;
+}
+</style>
