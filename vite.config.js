@@ -5,6 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/SuperHuman-landingPage/",
   plugins: [vue(), tailwindcss()],
-  base: "/SuperHuman-landingPage/"
+  
 })
