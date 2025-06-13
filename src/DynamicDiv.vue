@@ -7,8 +7,7 @@ const paragraphRefs = []
 const paragraphs = [
   {
     text: "Like a truly great assistant, Superhuman AI is constantly working beside you. Organizing your inbox. Making sure you never drop the ball. Drafting — and if you want — sending fully written emails on your behalf. It can even execute complete workflows, end-to-end, so you don’t have to.",
-    img: "SuperHuman
-/dist/seven.png"
+    img: "SuperHuman/dist/seven.png"
   },
   {
     text: "We all get too much email. The urgent buries the important. We don't reply to our team or VIPs. And we miss notifications from tools like Google Docs. As a result, we lose opportunities, block our teams, and damage our reputations.",
